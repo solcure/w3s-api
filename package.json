@@ -1,0 +1,151 @@
+{
+  "name": "w3s-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/solcure/w3s-api",
+  "author": "tempest-sol <96633876+tempest-sol@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "w3name": "^1.0.7"
+  },
+  "devDependencies": {
+    "@fleekxyz/sdk": "^0.0.1",
+    "@ipld/car": "^5.0.3",
+    "@types/node": "^18.11.18",
+    "dotenv": "^16.0.3",
+    "dts-gen": "^0.6.1",
+    "ipfs-http-client": "^60.0.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4",
+    "web3.storage": "^4.4.0"
+  },
+  ".": {
+    "types": "./types/src/index.d.ts",
+    "browser": "./esm/src/index.js",
+    "require": "./cjs/src/index.js",
+    "import": "./esm/src/index.js"
+  },
+  "./cid": {
+    "types": "./types/src/cid.d.ts",
+    "browser": "./esm/src/cid.js",
+    "require": "./cjs/src/cid.js",
+    "import": "./esm/src/cid.js"
+  },
+  "./basics": {
+    "types": "./types/src/basics.d.ts",
+    "browser": "./esm/src/basics.js",
+    "require": "./cjs/src/basics.js",
+    "import": "./esm/src/basics.js"
+  },
+  "./block": {
+    "types": "./types/src/block.d.ts",
+    "browser": "./esm/src/block.js",
+    "require": "./cjs/src/block.js",
+    "import": "./esm/src/block.js"
+  },
+  "./traversal": {
+    "types": "./types/src/traversal.d.ts",
+    "browser": "./esm/src/traversal.js",
+    "require": "./cjs/src/traversal.js",
+    "import": "./esm/src/traversal.js"
+  },
+  "./bases/identity": {
+    "types": "./types/src/bases/identity.d.ts",
+    "browser": "./esm/src/bases/identity.js",
+    "require": "./cjs/src/bases/identity.js",
+    "import": "./esm/src/bases/identity.js"
+  },
+  "./bases/base2": {
+    "types": "./types/src/bases/base2.d.ts",
+    "browser": "./esm/src/bases/base2.js",
+    "require": "./cjs/src/bases/base2.js",
+    "import": "./esm/src/bases/base2.js"
+  },
+  "./bases/base8": {
+    "types": "./types/src/bases/base8.d.ts",
+    "browser": "./esm/src/bases/base8.js",
+    "require": "./cjs/src/bases/base8.js",
+    "import": "./esm/src/bases/base8.js"
+  },
+  "./bases/base10": {
+    "types": "./types/src/bases/base10.d.ts",
+    "browser": "./esm/src/bases/base10.js",
+    "require": "./cjs/src/bases/base10.js",
+    "import": "./esm/src/bases/base10.js"
+  },
+  "./bases/base16": {
+    "types": "./types/src/bases/base16.d.ts",
+    "browser": "./esm/src/bases/base16.js",
+    "require": "./cjs/src/bases/base16.js",
+    "import": "./esm/src/bases/base16.js"
+  },
+  "./bases/base32": {
+    "types": "./types/src/bases/base32.d.ts",
+    "browser": "./esm/src/bases/base32.js",
+    "require": "./cjs/src/bases/base32.js",
+    "import": "./esm/src/bases/base32.js"
+  },
+  "./bases/base36": {
+    "types": "./types/src/bases/base36.d.ts",
+    "browser": "./esm/src/bases/base36.js",
+    "require": "./cjs/src/bases/base36.js",
+    "import": "./esm/src/bases/base36.js"
+  },
+  "./bases/base58": {
+    "types": "./types/src/bases/base58.d.ts",
+    "browser": "./esm/src/bases/base58.js",
+    "require": "./cjs/src/bases/base58.js",
+    "import": "./esm/src/bases/base58.js"
+  },
+  "./bases/base64": {
+    "types": "./types/src/bases/base64.d.ts",
+    "browser": "./esm/src/bases/base64.js",
+    "require": "./cjs/src/bases/base64.js",
+    "import": "./esm/src/bases/base64.js"
+  },
+  "./bases/base256emoji": {
+    "types": "./types/src/bases/base256emoji.d.ts",
+    "browser": "./esm/src/bases/base256emoji.js",
+    "require": "./cjs/src/bases/base256emoji.js",
+    "import": "./esm/src/bases/base256emoji.js"
+  },
+  "./hashes/hasher": {
+    "types": "./types/src/hashes/hasher.d.ts",
+    "browser": "./esm/src/hashes/hasher.js",
+    "require": "./cjs/src/hashes/hasher.js",
+    "import": "./esm/src/hashes/hasher.js"
+  },
+  "./hashes/digest": {
+    "types": "./types/src/hashes/digest.d.ts",
+    "browser": "./esm/src/hashes/digest.js",
+    "require": "./cjs/src/hashes/digest.js",
+    "import": "./esm/src/hashes/digest.js"
+  },
+  "./hashes/sha2": {
+    "types": "./types/src/hashes/sha2.d.ts",
+    "browser": "./esm/src/hashes/sha2-browser.js",
+    "require": "./cjs/src/hashes/sha2.js",
+    "import": "./esm/src/hashes/sha2.js"
+  },
+  "./hashes/identity": {
+    "types": "./types/src/hashes/identity.d.ts",
+    "browser": "./esm/src/hashes/identity.js",
+    "require": "./cjs/src/hashes/identity.js",
+    "import": "./esm/src/hashes/identity.js"
+  },
+  "./codecs/json": {
+    "types": "./types/src/codecs/json.d.ts",
+    "browser": "./esm/src/codecs/json.js",
+    "require": "./cjs/src/codecs/json.js",
+    "import": "./esm/src/codecs/json.js"
+  },
+  "./codecs/raw": {
+    "types": "./types/src/codecs/raw.d.ts",
+    "browser": "./esm/src/codecs/raw.js",
+    "require": "./cjs/src/codecs/raw.js",
+    "import": "./esm/src/codecs/raw.js"
+  },
+  "type": "module"
+}

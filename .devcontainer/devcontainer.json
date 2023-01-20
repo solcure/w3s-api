@@ -1,0 +1,13 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/typescript:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"formulahendry.code-runner"
+			]
+		}
+	}
+}
